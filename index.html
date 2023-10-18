@@ -1,0 +1,42 @@
+<!DOCTYPE html> 
+<html lang="en"> 
+<head> 
+	<title>Site Bookmarker</title> 
+
+	<link rel="stylesheet" type="text/css" href="./css/main.css"> 
+    <link href='https://fonts.googleapis.com/css?family=Satisfy' rel='stylesheet'>
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
+
+</head> 
+<body> 
+
+<h1> Bookmarker</h1> 
+
+<div class="container"> 
+    <h3><i class="fa-solid fa-bookmark"></i> Bookmark Your Favorite Site <i class="fa-solid fa-bookmark"></i></h3>
+	<form class="form" action="#"> 
+	<div class="input-field"> 
+		<label for="site_name"><i class="fa-solid fa-book-bookmark"></i> Site Name</label> 
+		<input name="site_name" type="text"
+			placeholder="site name"> 
+	</div> 
+
+	<div class="input-field"> 
+		<label for="url"><i class="fa-solid fa-link"></i> Site URL</label> 
+		<input name="url" type="text"
+			placeholder="https://www.example.com"> 
+	</div> 
+		
+	<button class="save_button">Submit</button> 
+	</form> 
+
+	<h2>Saved Bookmarks</h2> 
+	
+	<div class="bookmarks"></div> 
+    
+</div> 
+
+<script src="./js/main.js"></script> 
+</body> 
+</html>
